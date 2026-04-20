@@ -112,12 +112,12 @@ const MultiSelect: React.FC<DropdownProps> = ({ id }) => {
           <div className="relative z-20 inline-block w-full">
             <div className="relative flex flex-col items-center">
               <div ref={trigger} onClick={open} className="w-full">
-                <div className="mb-2 flex rounded-[7px] border-[1.5px] border-stroke py-[9px] pl-3 pr-3 outline-none transition focus:border-primary active:border-primary dark:border-dark-3 dark:bg-dark-2">
+                <div className="mb-2 flex rounded-[7px] border-[1.5px] border-stroke py-[9px] pl-3 pr-3 outline-none transition focus:border-primary active:border-primary dark:border-dark-3 dark:bg-[#2C2539]">
                   <div className="flex flex-auto flex-wrap gap-3">
                     {selected.map((index) => (
                       <div
                         key={index}
-                        className="flex items-center justify-center rounded-[5px] border-[.5px] border-stroke bg-gray-2 px-2.5 py-[3px] text-body-sm font-medium dark:border-dark-3 dark:bg-dark"
+                        className="flex items-center justify-center rounded-[5px] border-[.5px] border-stroke bg-gray-2 px-2.5 py-[3px] text-body-sm font-medium dark:border-dark-3 dark:bg-[#1A1621]"
                       >
                         <div className="max-w-full flex-initial">
                           {options[index].text}
@@ -184,7 +184,7 @@ const MultiSelect: React.FC<DropdownProps> = ({ id }) => {
               </div>
               <div className="w-full px-4">
                 <div
-                  className={`max-h-select absolute left-0 top-full z-40 w-full overflow-y-auto rounded bg-white shadow-1 dark:bg-dark-2 dark:shadow-card ${
+                  className={`max-h-select absolute left-0 top-full z-40 w-full overflow-y-auto rounded bg-white shadow-1 dark:bg-[#2C2539] dark:shadow-card ${
                     isOpen() ? "" : "hidden"
                   }`}
                   ref={dropdownRef}

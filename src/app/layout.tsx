@@ -14,11 +14,11 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | NextAdmin - Next.js Dashboard Kit",
-    default: "NextAdmin - Next.js Dashboard Kit",
+    template: "%s | Admin Dashboard",
+    default: "Booking - Admin Dashboard",
   },
   description:
-    "Next.js admin dashboard toolkit with 200+ templates, UI components, and integrations for fast dashboard development.",
+    "Admin dashboard toolkit with 200+ templates, UI components, and integrations for fast dashboard development.",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
           <div className="flex min-h-screen">
             <Sidebar />
 
-            <div className="w-full bg-gray-2 dark:bg-[#020d1a]">
+            <div className="w-full bg-gray-2 dark:bg-[#1A1621]">
               <Header />
 
               <main className="isolate mx-auto w-full max-w-screen-2xl overflow-hidden p-4 md:p-6 2xl:p-10">

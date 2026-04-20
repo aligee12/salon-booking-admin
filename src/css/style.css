@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-2 text-dark-5 dark:bg-[#020D1A] dark:text-dark-6;
+    @apply bg-gray-2 text-dark-5 dark:bg-[#1A1621] dark:text-dark-6;
   }
 }
 
@@ -224,14 +224,14 @@ span.flatpickr-weekday,
 .flatpickr-day.selected.nextMonthDay,
 .flatpickr-day.startRange.nextMonthDay,
 .flatpickr-day.endRange.nextMonthDay {
-  background: #3c50e0;
+  background: #352F44;
   @apply !border-primary !bg-primary hover:!border-primary hover:!bg-primary;
 }
 
 .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n + 1)),
 .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n + 1)),
 .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n + 1)) {
-  box-shadow: -10px 0 0 #3c50e0;
+  box-shadow: -10px 0 0 #352F44;
 }
 
 .map-btn .jvm-zoom-btn {
@@ -476,5 +476,5 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .custom-gradient-1 {
-  background-image: linear-gradient(145deg, #eef 0%, #fff8fc 100%);
+  background-image: linear-gradient(145deg, #352F44 0%, #5C5470 100%);
 }

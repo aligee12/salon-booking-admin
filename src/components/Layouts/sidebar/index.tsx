@@ -55,7 +55,7 @@ export function Sidebar() {
 
       <aside
         className={cn(
-          "max-w-[290px] overflow-hidden border-r border-gray-200 bg-white transition-[width] duration-200 ease-linear dark:border-gray-800 dark:bg-gray-dark",
+          "max-w-[290px] overflow-hidden border-r border-primary-faint bg-primary-50 transition-[width] duration-200 ease-linear dark:border-primary/20 dark:bg-[#1A1621]",
           isMobile ? "fixed bottom-0 top-0 z-50" : "sticky top-0 h-screen",
           isOpen ? "w-full" : "w-0",
         )}
@@ -70,7 +70,14 @@ export function Sidebar() {
               onClick={() => isMobile && toggleSidebar()}
               className="px-0 py-2.5 min-[850px]:py-0"
             >
-              <Logo />
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#352F44] text-lg font-bold text-[#F3F4F4] shadow-sm dark:bg-[#F3F4F4] dark:text-[#352F44]">
+                  B
+                </div>
+                <span className="text-xl font-semibold tracking-tight text-[#352F44] dark:text-[#F3F4F4]">
+                  BookEase
+                </span>
+              </div>
             </Link>
 
             {isMobile && (

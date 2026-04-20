@@ -16,8 +16,8 @@ export function UserInfo() {
   const [isOpen, setIsOpen] = useState(false);
 
   const USER = {
-    name: "John Smith",
-    email: "johnson@nextadmin.com",
+    name: "Ali Akbar",
+    email: "akbarcodes07@gmail.com",
     img: "/images/user/user-03.png",
   };
 
@@ -51,7 +51,7 @@ export function UserInfo() {
       </DropdownTrigger>
 
       <DropdownContent
-        className="border border-stroke bg-white shadow-md dark:border-dark-3 dark:bg-gray-dark min-[230px]:min-w-[17.5rem]"
+        className="border border-stroke bg-white shadow-md dark:border-dark-3 dark:bg-[#251F31] min-[230px]:min-w-[17.5rem]"
         align="end"
       >
         <h2 className="sr-only">User information</h2>

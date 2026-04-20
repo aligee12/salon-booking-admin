@@ -10,7 +10,7 @@ export async function CampaignVisitors({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "rounded-[10px] bg-white shadow-1 dark:bg-gray-dark dark:shadow-card",
+        "rounded-[10px] bg-white shadow-1 dark:bg-[#251F31] dark:shadow-card",
         className,
       )}
     >
