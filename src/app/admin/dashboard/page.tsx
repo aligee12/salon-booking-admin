@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { PaymentsOverview } from "@/components/Charts/payments-overview";
 import { WeeksProfit } from "@/components/Charts/weeks-profit";
 import { Suspense } from "react";
