@@ -1,4 +1,6 @@
 
+export const dynamic = "force-dynamic";
+
 import { mockAnalytics } from "@/data/mockAdminData";
 import { PaymentsOverview } from "@/components/Charts/payments-overview";
 import { UsedDevices } from "@/components/Charts/used-devices";
